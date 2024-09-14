@@ -1,13 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    outline: 2px solid black;
+    box-sizing: border-box;
 }
 
 .square {
-    outline: solid 1px grey;
-    height: 50px;
-    width: 50px;
-    margin: 0;
     display: flex;
-    flex-wrap: wrap;
+    outline: solid 1px grey;
+    margin: 0;
 }
