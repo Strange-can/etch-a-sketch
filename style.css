@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 
 .container {
@@ -15,7 +16,6 @@ body {
 }
 
 .square {
-    display: flex;
     outline: solid 1px grey;
     margin: 0;
 }
